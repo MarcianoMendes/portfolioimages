@@ -1,0 +1,119 @@
+*{padding:0; margin:0;}
+
+body{letter-spacing:1px;font-size:13px;color:#333;line-height:24px; font-family: 'freight-sans-pro', sans-serif}
+body.login{letter-spacing:1px;font-size:13px;color:#333;line-height:24px; font-family: 'freight-sans-pro', sans-serif;background-color:#F0F5F5}
+body.bodycontato{letter-spacing:1px;font-size:13px;color:#333;line-height:30px; font-family: 'freight-sans-pro', sans-serif;}
+
+fieldset{width:730px;padding:15px;position:absolute;left:32%;top:17%;margin:-100px 0 0 -150px;}
+fieldset.fieldsetcontato{width:450px;padding:15px;position:absolute;left:40%;top:20%;margin:-100px 0 0 -150px;}
+fieldset.fieldsetlogin{width:200px;padding:15px;position:absolute;left:50%;top:40%;margin:-100px 0 0 -150px;}
+input{width:350px;font-size:18px;color:#333;border:solid 1px #333;}
+input.botao{width:100px;}
+
+small{color:#008800;}
+small.erro{color:#f00;}
+
+.cor-sim{background-color: #DDEEFF;}
+.cor-nao{background-color: #BBDDFF;}
+.cor-sim:hover,.cor-nao:hover{background-color:#2291FF;}
+
+#mensagem{
+background-color:#f3fafd;
+padding:15px;
+border-bottom:2px solid #eaeff3;
+box-shadow:0px 3px 4px #bfc7c7;
+color:red;
+font:bold 14px sans-serif; 
+text-align:center;
+display:none;
+}
+
+#alerta{
+display:none;
+text-align:center;
+}
+
+#formulario_login{
+background-color:white;
+width:360px;
+height:240px;
+margin: 140px auto 8px;
+border-radius:5px;
+box-shadow:0px 0px 10px black;
+}
+/*#bfc7c7;CINZA CLARO*/
+
+#label_titulo_login{
+background-color:#F0F5F5;
+height:45px;
+text-align:center;
+font:bold 14px/45px sans-serif;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom: 1px solid white;
+box-shadow:1px 0px 3px black;
+color:#555555;
+}
+
+.input-div{
+margin:20px;
+padding:5px;
+background-color:#f2f5f7
+border-radius:3px;
+}
+
+.input-div input{
+width:310px;
+height:35px;
+padding-left:5px;
+font:normal 13px sans-serif;
+color:#555555;
+border-radius:3px;
+border:1px solid #bfc4c6;
+outline:none;
+}
+
+.input-div:hover{
+background-color:#e0f1fc;
+}
+
+.input-div:hover input{
+border-color:#7dc6dd;
+}
+
+#botoes{
+width:310px;
+margin-left:25px;
+} 
+
+#botao_arredondado{
+float:right;
+background-color:read;
+padding:5px 15px;
+font: bold 13px sans-serif;
+border-radius:10px;
+border:1px solid #9eb9c3;
+}
+
+#botao{
+width:152px;
+padding:5px 15px;
+height:35px;
+}
+
+#botao:hover{
+background:#6392bd;
+cursor:pointer;
+}
+
+#botao_cancelar{
+width:152px;
+padding:5px 15px;
+height:35px;
+}
+
+#botao_cancelar:hover{
+background:#6392bd;
+cursor:pointer;
+}
+
